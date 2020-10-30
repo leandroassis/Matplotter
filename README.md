@@ -6,4 +6,6 @@
 -- Todos os dados sobre o funcionamento, operadores e etc estarão no manual de ajuda --
 
 -- Ao término, a aplicação contará com interface gráfica, leitura de dados de arquivos em colunas determinadas pelo usuário, gráficos dimensionados com legendas e distinção de cores e um registro do sistema que irá armazenar todos os cálculos feitos para servir como guia ao usuário.
- ==== Desenvolvido por Leandro Assis ====
+ 
+ 
+                                                          ==== Desenvolvido por Leandro Assis ====
