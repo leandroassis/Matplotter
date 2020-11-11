@@ -1,0 +1,152 @@
+                                            	----- Registros do Sistema -----
+
+
+-----------------
+Programa Iniciado
+Menu Principal 
+Opção de Ajuste Escolhida.
+
+
+
+-----------------
+Programa Iniciado
+Menu Principal 
+Opção de Ajuste Escolhida.
+
+
+
+-----------------
+Programa Iniciado
+Menu Principal 
+Opção de Ajuste Escolhida.
+Escolha do tipo de ajuste linear: 1 escolhido.
+Usuário inserindo valores para os pares ordenados
+Foram inseridos os seguintes pares ordenados: [[45, 56]].
+Usuário inserindo valores para os pares ordenados
+Foram inseridos os seguintes pares ordenados: [[45, 56], [34, 65]].
+Usuário inserindo valores para os pares ordenados
+Foram inseridos os seguintes pares ordenados: [[45, 56], [34, 65], [32, 57]].
+Usuário inserindo valores para os pares ordenados
+Foram inseridos os seguintes pares ordenados: [[45, 56], [34, 65], [32, 57], [324, 68]].
+Usuário inserindo valores para os pares ordenados
+Foram inseridos os seguintes pares ordenados: [[45, 56], [34, 65], [32, 57], [324, 68], [435, 789]].
+Usuário inserindo valores para os pares ordenados
+Chamada das funções para calcular os coeficientes e gerar os gráficos.
+Menu Principal 
+
+
+
+-----------------
+Programa Iniciado
+Menu Principal 
+Opção 1 - Esboço de curvas escolhida.
+Função Inserida: 2*x+10
+Chamada de função para calcular os pontos da função: 
+2*x + 10Chamada da função para gerar o gráfico.
+Ciclo encerrado - Retornando ao Menu.
+Função Inserida: 5*x+2
+Chamada de função para calcular os pontos da função: 
+5*x + 2Chamada da função para gerar o gráfico.
+Ciclo encerrado - Retornando ao Menu.
+Função Inserida: 
+Interrupção do usuário 
+Menu Principal 
+Opção de Ajuste Escolhida.
+Escolha do tipo de ajuste linear: 1 escolhido.
+Usuário inserindo valores para os pares ordenados
+Foram inseridos os seguintes pares ordenados: [[34, 46]].
+Usuário inserindo valores para os pares ordenados
+Foram inseridos os seguintes pares ordenados: [[34, 46], [87, 56]].
+Usuário inserindo valores para os pares ordenados
+Foram inseridos os seguintes pares ordenados: [[34, 46], [87, 56], [67, 34]].
+Usuário inserindo valores para os pares ordenados
+Chamada das funções para calcular os coeficientes e gerar os gráficos.
+Menu Principal 
+Opção de Ajuste Escolhida.
+Escolha do tipo de ajuste linear: 2 escolhido.
+Usuário inserindo valores para os pares ordenados
+Foram inseridos os seguintes pares ordenados: [[56, 90]].
+Usuário inserindo valores para os pares ordenados
+Foram inseridos os seguintes pares ordenados: [[56, 90], [34, 56]].
+Usuário inserindo valores para os pares ordenados
+Foram inseridos os seguintes pares ordenados: [[56, 90], [34, 56], [20, 48]].
+Usuário inserindo valores para os pares ordenados
+Chamada das funções para calcular os coeficientes e gerar os gráficos.
+Menu Principal 
+Opção 4 - Calculadora de áreas e volumes escolhida.
+O usuário escolheu a opção 1.
+Equação para a curva 1: x**3.
+Equação para a curva 2: 2*x+10.
+Limites para a integração inseridos ,.
+Chamada da função para calcular áreas.
+O usuário escolheu a opção 1.
+Equação para a curva 1: 2*x+5.
+Equação para a curva 2: x**2.
+Limites para a integração inseridos 0,10.
+Chamada da função para calcular áreas.
+O usuário escolheu a opção 2.
+Iniciado cálculo de volume em eixo paralelo ao eixo x.
+Usuário delimitando região para o cálculo do volume.
+Usuário delimitando região para o cálculo do volume.
+Usuário delimitando região para o cálculo do volume.
+A região foi delimitada entre y = x**3 e y = 2*x + 10 girando em torno de y = 2*x + 5.
+Limites de integração selecionados como a =  e b = .
+Chamada da função para calcular volume pelo método dos discos.
+O usuário escolheu a opção 1.
+Equação para a curva 1: x**2.
+Equação para a curva 2: x.
+Limites para a integração inseridos ,.
+Chamada da função para calcular áreas.
+O usuário escolheu a opção 1.
+Equação para a curva 1: sin(x).
+Equação para a curva 2: cos(x).
+Limites para a integração inseridos ,.
+Chamada da função para calcular áreas.
+Operação Encerrada pelo usuário.
+
+
+
+-----------------
+Programa Iniciado
+Menu Principal 
+Opção 4 - Calculadora de áreas e volumes escolhida.
+O usuário escolheu a opção 1.
+Equação para a curva 1: 1/x**2.
+Equação para a curva 2: .
+Limites para a integração inseridos 1,4.
+Chamada da função para calcular áreas.
+A área é: <class 'Exception'>Operação Encerrada pelo usuário.
+
+
+
+-----------------
+Programa Iniciado
+Menu Principal 
+Opção 4 - Calculadora de áreas e volumes escolhida.
+Operação Encerrada pelo usuário.
+Menu Principal 
+Opção 4 - Calculadora de áreas e volumes escolhida.
+O usuário escolheu a opção 1.
+Equação para a curva 1: 1/x**2.
+Equação para a curva 2: .
+Limites para a integração inseridos 1,4.
+Chamada da função para calcular áreas.
+A área é: 3/4O usuário escolheu a opção 1.
+Equação para a curva 1: sin(x).
+Equação para a curva 2: cos(x).
+Limites para a integração inseridos ,.
+Chamada da função para calcular áreas.
+A área é: -1 + sqrt(2)O usuário escolheu a opção 1.
+Equação para a curva 1: sin(x).
+Equação para a curva 2: cos(x).
+Limites para a integração inseridos 0,pi/2.
+Chamada da função para calcular áreas.
+A área é: -2 + 2*sqrt(2)Operação Encerrada pelo usuário.
+Menu Principal 
+Abertura dos Registros.
+Menu Principal 
+Leitura do Manual de Instruções.
+Menu Principal 
+Abertura dos Registros.
+Menu Principal 
+Programa Encerrado.-------------------

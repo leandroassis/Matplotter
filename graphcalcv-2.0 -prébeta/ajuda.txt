@@ -1,0 +1,20 @@
+                                                 ------------- AJUDA --------------
+Bem vindo à ajuda do sistema. Nessa parte você encontrará a explicação de como utilizar minha plataforma, oepradores, equações, método de funcionamento e os limites atuais do software.
+
+Operadores:
+
+
+Funções:
+
+
+Ajuste Linear:
+
+
+Calculadora:
+
+Limites atuais:
+
+
+Funcionamento:
+
+
