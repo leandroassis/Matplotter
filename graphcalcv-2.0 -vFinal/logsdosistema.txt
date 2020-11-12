@@ -1,0 +1,247 @@
+                                            	----- Registros do Sistema -----
+
+
+
+-----------------
+Programa Iniciado
+Menu Principal 
+Opção 1 - Esboço de curvas escolhida.
+Função Inserida: x**3+2*x
+Chamada de função para calcular os pontos da função: 
+x**3 + 2*xChamada da função para gerar o gráfico.
+Ciclo encerrado - Retornando ao Menu.
+Função Inserida: cos(2/(x+1))
+Chamada de função para calcular os pontos da função: 
+cos(2/(x + 1))Chamada da função para gerar o gráfico.
+Ciclo encerrado - Retornando ao Menu.
+Função Inserida: cos(2*x)
+Chamada de função para calcular os pontos da função: 
+cos(2*x)Chamada da função para gerar o gráfico.
+Ciclo encerrado - Retornando ao Menu.
+Função Inserida: x**3/(x-1)
+Chamada de função para calcular os pontos da função: 
+x**3/(x - 1)Chamada da função para gerar o gráfico.
+Ciclo encerrado - Retornando ao Menu.
+Função Inserida: 
+Interrupção do usuário 
+Menu Principal 
+Opção de Ajuste de Curvas Escolhida.
+Escolha do tipo de ajuste linear: 1 escolhido.
+Usuário inserindo valores para os pares ordenados
+Foram inseridos os seguintes pares ordenados: [[56, 47]].
+Usuário inserindo valores para os pares ordenados
+Foram inseridos os seguintes pares ordenados: [[56, 47], [34, 235]].
+Usuário inserindo valores para os pares ordenados
+Foram inseridos os seguintes pares ordenados: [[56, 47], [34, 235], [567, 8798]].
+Usuário inserindo valores para os pares ordenados
+Foram inseridos os seguintes pares ordenados: [[56, 47], [34, 235], [567, 8798], [5434, 5678]].
+Usuário inserindo valores para os pares ordenados
+Foram inseridos os seguintes pares ordenados: [[56, 47], [34, 235], [567, 8798], [5434, 5678], [89, 23]].
+Usuário inserindo valores para os pares ordenados
+Foram inseridos os seguintes pares ordenados: [[56, 47], [34, 235], [567, 8798], [5434, 5678], [89, 23], [456, 789]].
+Usuário inserindo valores para os pares ordenados
+Chamada das funções para calcular os coeficientes e gerar os gráficos.
+Menu Principal 
+Opção de Ajuste de Curvas Escolhida.
+Escolha do tipo de ajuste linear: 2 escolhido.
+Menu Principal 
+Opção de Ajuste de Curvas Escolhida.
+Escolha do tipo de ajuste linear: 1 escolhido.
+Menu Principal 
+Opção de Ajuste de Curvas Escolhida.
+Escolha do tipo de ajuste linear: 1 escolhido.
+Menu Principal 
+Leitura do Manual de Instruções.
+Menu Principal 
+
+
+
+-----------------
+Programa Iniciado
+Menu Principal 
+Abertura dos Registros.
+Menu Principal 
+
+
+
+-----------------
+Programa Iniciado
+Menu Principal 
+Opção 1 - Esboço de curvas escolhida.
+Função Inserida: sin(x)/cos(x)
+Chamada de função para calcular os pontos da função:sin(x)/cos(x).
+Chamada da função para gerar o gráfico.
+Ciclo encerrado - Retornando ao Menu.
+Função Inserida: x**3/(sin(x)+2)
+Chamada de função para calcular os pontos da função:x**3/(sin(x) + 2).
+Problema Não Suportado no momento...
+Menu Principal 
+Opção de Ajuste de Curvas Escolhida.
+Escolha do tipo de ajuste linear: 3 escolhido.
+Escolha do tipo de ajuste linear: 2 escolhido.
+Usuário inserindo valores para os pares ordenados
+Foram inseridos os seguintes pares ordenados: [[46, 67]].
+Usuário inserindo valores para os pares ordenados
+Foram inseridos os seguintes pares ordenados: [[46, 67], [879, 980]].
+Usuário inserindo valores para os pares ordenados
+Foram inseridos os seguintes pares ordenados: [[46, 67], [879, 980], [675, 435]].
+Usuário inserindo valores para os pares ordenados
+Foram inseridos os seguintes pares ordenados: [[46, 67], [879, 980], [675, 435], [789, 6755]].
+Usuário inserindo valores para os pares ordenados
+Chamada das funções para calcular os coeficientes e gerar os gráficos.
+Menu Principal 
+Opção de Ajuste de Curvas Escolhida.
+Escolha do tipo de ajuste linear: 1 escolhido.
+Usuário inserindo valores para os pares ordenados
+Chamada das funções para calcular os coeficientes e gerar os gráficos.
+Erro detectado.Menu Principal 
+Opção de Ajuste de Curvas Escolhida.
+Escolha do tipo de ajuste linear: 1 escolhido.
+Menu Principal 
+
+
+
+-----------------
+Programa Iniciado
+Menu Principal 
+Opção de Ajuste de Curvas Escolhida.
+Escolha do tipo de ajuste linear: 1 escolhido.
+
+
+
+-----------------
+Programa Iniciado
+Menu Principal 
+Opção de Ajuste de Curvas Escolhida.
+Escolha do tipo de ajuste linear: 1 escolhido.
+Menu Principal 
+Programa Encerrado.-------------------
+
+
+-----------------
+Programa Iniciado
+Menu Principal 
+Opção 1 - Esboço de curvas escolhida.
+Função Inserida: x**3+2*x
+Chamada de função para calcular os pontos da função:x**3 + 2*x.
+Chamada da função para gerar o gráfico.
+Ciclo encerrado - Retornando ao Menu.
+Função Inserida: sin(2*x+5)
+Chamada de função para calcular os pontos da função:sin(2*x + 5).
+Chamada da função para gerar o gráfico.
+Ciclo encerrado - Retornando ao Menu.
+Função Inserida: cos(2*x**3)
+Chamada de função para calcular os pontos da função:cos(2*x**3).
+Chamada da função para gerar o gráfico.
+Ciclo encerrado - Retornando ao Menu.
+Função Inserida: tg(x)
+Chamada de função para calcular os pontos da função:tg(x).
+Chamada da função para gerar o gráfico.
+Menu Principal 
+Opção 1 - Esboço de curvas escolhida.
+Função Inserida: 5*cos(x)+2
+Chamada de função para calcular os pontos da função:5*cos(x) + 2.
+Chamada da função para gerar o gráfico.
+Ciclo encerrado - Retornando ao Menu.
+Função Inserida: x**3/2*x+1
+Chamada de função para calcular os pontos da função:x**4/2 + 1.
+Chamada da função para gerar o gráfico.
+Ciclo encerrado - Retornando ao Menu.
+Função Inserida: x**2/(x**3-4)
+Chamada de função para calcular os pontos da função:x**2/(x**3 - 4).
+Chamada da função para gerar o gráfico.
+Menu Principal 
+Opção 1 - Esboço de curvas escolhida.
+Função Inserida: x**3/(x**3-2)
+Chamada de função para calcular os pontos da função:x**3/(x**3 - 2).
+Chamada da função para gerar o gráfico.
+Menu Principal 
+Opção 1 - Esboço de curvas escolhida.
+Função Inserida: x**5/(x**3-4)
+Chamada de função para calcular os pontos da função:x**5/(x**3 - 4).
+Chamada da função para gerar o gráfico.
+Menu Principal 
+Opção 1 - Esboço de curvas escolhida.
+Função Inserida: x/(x**2+7)
+Chamada de função para calcular os pontos da função:x/(x**2 + 7).
+Chamada da função para gerar o gráfico.
+Menu Principal 
+Menu Principal 
+Opção 1 - Esboço de curvas escolhida.
+Função Inserida: x**3+2*x+3
+Chamada de função para calcular os pontos da função:x**3 + 2*x + 3.
+Chamada da função para gerar o gráfico.
+Ciclo encerrado - Retornando ao Menu.
+Função Inserida: 2*x+5
+Chamada de função para calcular os pontos da função:2*x + 5.
+Chamada da função para gerar o gráfico.
+Ciclo encerrado - Retornando ao Menu.
+Função Inserida: 2*x+cos(2*x)
+Chamada de função para calcular os pontos da função:2*x + cos(2*x).
+Chamada da função para gerar o gráfico.
+Ciclo encerrado - Retornando ao Menu.
+Função Inserida: x**2/(x**2-4)
+Chamada de função para calcular os pontos da função:x**2/(x**2 - 4).
+Chamada da função para gerar o gráfico.
+Ciclo encerrado - Retornando ao Menu.
+Função Inserida: sin(x)/x**2
+Chamada de função para calcular os pontos da função:sin(x)/x**2.
+Problema Não Suportado no momento...
+Menu Principal 
+Opção 1 - Esboço de curvas escolhida.
+Função Inserida: x**17-100
+Chamada de função para calcular os pontos da função:x**17 - 100.
+Chamada da função para gerar o gráfico.
+Ciclo encerrado - Retornando ao Menu.
+Função Inserida: exp(x)
+Chamada de função para calcular os pontos da função:exp(x).
+Chamada da função para gerar o gráfico.
+Ciclo encerrado - Retornando ao Menu.
+Função Inserida: 
+Interrupção do usuário 
+Menu Principal 
+Programa Encerrado.
+-------------------
+
+
+
+-----------------
+Programa Iniciado
+Menu Principal 
+Opção de Ajuste de Curvas Escolhida.
+Escolha do tipo de ajuste linear: 2 escolhido.
+Ajuste de dados em arquivo escolhido.
+Ajute de Height em função de Weight do arquivo arquivosteste/athlete_events.xlsx.
+Ajute de Height em função de Weight do arquivo arquivosteste/athlete_events.csv.
+O gráfico foi gerado com coeficiente [ 2.52186137e-03  1.81246303e-01 -3.88257225e+01].
+Menu Principal 
+Opção de Ajuste de Curvas Escolhida.
+Escolha do tipo de ajuste linear: 2 escolhido.
+Ajuste de dados em arquivo escolhido.
+Ajute de Weight em função de Height do arquivo arquivosteste/athlete_events.csv.
+O gráfico foi gerado com coeficiente [-5.84148271e-03  1.47321748e+00  1.01303206e+02].
+Menu Principal 
+Opção de Ajuste de Curvas Escolhida.
+Escolha do tipo de ajuste linear: 1 escolhido.
+Ajuste de dados em arquivo escolhido.
+Ajute de Idade em função de Altura do arquivo arquivosteste/testeprojetofinal.xlsx.
+O gráfico foi gerado com coeficiente [-0.01925926  2.16111111].
+Menu Principal 
+Opção de Ajuste de Curvas Escolhida.
+Escolha do tipo de ajuste linear: 2 escolhido.
+Ajuste de dados em arquivo escolhido.
+Ajute de Tempo em função de Pos do arquivo arquivosteste/ajustelinearfisexp.xlsx.
+O gráfico foi gerado com coeficiente [-438.79399529  -37.42142623  103.10748033].
+Menu Principal 
+Opção de Ajuste de Curvas Escolhida.
+Escolha do tipo de ajuste linear: 1 escolhido.
+Ajuste de dados em arquivo escolhido.
+Ajute de Tempo em função de Velocidade do arquivo arquivosteste/ajustelinearfisexp.xlsx.
+O gráfico foi gerado com coeficiente [886.44946123  28.13889871].
+Menu Principal 
+Abertura dos Registros.
+Menu Principal 
+Leitura do Manual de Instruções.
+Menu Principal 
+Programa Encerrado.
+-------------------
