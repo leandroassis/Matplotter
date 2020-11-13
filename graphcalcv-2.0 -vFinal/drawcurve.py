@@ -25,14 +25,11 @@ def calculapontos(fx):
                     assintvert = assintvert + [n]
             except IndexError:
                 continue
-        #print(numforadominio)
-        #print(assintvert)
         #o objetivo dessa parte é descobrir os valores em que fx não é continua para calcular as assintotas verticais
 
         #calculo da primeria derivada e pontos criticos
         derv1 = factor(diff(fx,x)) 
         ncriticos = solve(derv1,x)
-        #print(ncriticos)
         xmaximoglobal = 0
         xminimoglobal = 0
         for num in ncriticos:
@@ -144,15 +141,18 @@ def calcularArea(lista,lim1,lim2):
     valores = []
     fx = sympify(lista[0])
     gx = sympify(lista[1])
-    valor  = solve(Eq(fx,gx),x)
+    valor1  = solve(Eq(fx,gx),x)
+    valor = []
     #print(valor)
 
-    for item in valor:
+    for item in valor1:
         item = str(item)
-        if 'I' in item:
-            item = sympify(item)
-            valor.remove(item)
-        #print(valor)
+        #print('+1')
+        #print(item)
+        if '*I' not in item:
+            valor.append(sympify(item))
+        else:
+            continue
 
     if lim1 == None and lim2 != None:
         lim1 = valor[0]
@@ -212,17 +212,22 @@ def calcularVolumeDisco(lista,lim1,lim2):
     fx = sympify(lista[0])
     gx = sympify(lista[1])
     hx = sympify(lista[2])
-    valor = solve(Eq(fx,gx),x)
+    valor1 = solve(Eq(fx,gx),x)
+    valor = []
     #print('ok')
-    #print(valor)
+    #print(valor1)
     #print(lim1,lim2)
 
-    for item in valor:
+    for item in valor1:
         item = str(item)
-        if 'I' in item:
-            item = sympify(item)
-            valor.remove(item)
-        
+        #print('+1')
+        #print(item)
+        if '*I' not in item:
+            valor.append(sympify(item))
+        else:
+            continue
+    #print(valor)
+
     if lim1 == None and lim2 != None:
         lim1 = valor[0]
         if lim1 > lim2:
@@ -292,6 +297,8 @@ def calcularVolumeDisco(lista,lim1,lim2):
                 valores2.append(area2)    
             #print(area1,area2)
             return abs(somafatores(valores)-somafatores(valores2))
+        elif len(valor) == 0:
+            return Exception
     else:
         #print(valor)
         valor.append(lim1)
@@ -324,13 +331,17 @@ def calcularVolumeCilindro(lista,lim1,lim2):
     valores = []
     fx = sympify(lista[0])
     gx = sympify(lista[1])
-    valor = solve(Eq(fx,gx),x)
+    valor1 = solve(Eq(fx,gx),x)
+    valor = []
 
-    for item in valor:
+    for item in valor1:
         item = str(item)
-        if 'I' in item:
-            item = sympify(item)
-            valor.remove(item)
+        #print('+1')
+        #print(item)
+        if '*I' not in item:
+            valor.append(sympify(item))
+        else:
+            continue
     
     if lim1 == None and lim2 != None:
         lim1 = valor[0]
@@ -378,17 +389,7 @@ def calcularVolumeCilindro(lista,lim1,lim2):
         resp1 = somafatores(valores)
         return abs(resp1)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+if __name__ == "__main__":
+    print(numforadominio)
+    print(assintvert)
+    print(ncriticos)

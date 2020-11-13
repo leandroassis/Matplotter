@@ -11,7 +11,7 @@ def calcy(valoresdex, func):
     for b in valoresdex:
         y1 = func.subs(x,b)
         ydados.append(y1)
-        #print(y1)
+        
     return ydados
 
 def plotar(pontos,funcao):
@@ -21,9 +21,6 @@ def plotar(pontos,funcao):
         numforadominio = pontos[0]
         xmaximoglobal = pontos[1]
         xminimoglobal = pontos[2]
-        #print(numforadominio)
-        #print(xmaximoglobal)
-        #print(xminimoglobal)
         
         #calcula os limites esboçados no gráfico:
         xmaximoglobal = str(xmaximoglobal)
@@ -34,15 +31,11 @@ def plotar(pontos,funcao):
             xminimoglobal = 0
         xminimoglobal = abs(sympify(xminimoglobal))
         xmaximoglobal = abs(sympify(xmaximoglobal))
-        #print(xmaximoglobal)
-        #print(xminimoglobal)
         final = 5*(xmaximoglobal+xminimoglobal)
         inicial = -1*final    
         if final == 0 and inicial == 0:
             final = rd.randint(0,30)
-            inicial = -1*final 
-        #print(final)
-        #print(inicial)
+            inicial = -1*final
             
         #anota os valores das assintotas verticais
         assintvert = []
@@ -54,7 +47,6 @@ def plotar(pontos,funcao):
                 pontopdireita = 1.15*ponto
                 pontopesquerda = 0.85*ponto
             assintvert = assintvert + [pontopesquerda,pontopdireita]
-        #print(assintvert)
         
         #ordena os valores das assintotas
         assintvert.sort()
@@ -141,3 +133,11 @@ def esbocoajustecurvas(coef,xplot,yplot,ajuste):
     plt.show()
     plt.savefig('ajuste%d.png'%contador)
     plt.close()
+
+if __name__ == "__main__":
+   print(y1)
+   print(numforadominio)
+   print(xmaximoglobal)
+   print(xminimoglobal)
+   print(final)
+   print(inicial)

@@ -17,6 +17,6 @@
                             GitHub: https://github.com/leandroassis
                             Email de contato: assissantosleandro@gmail.com
 
-                            Link do vídeo de explicação (Pt-br): 
+                            Link do vídeo de explicação completo (Pt-br): https://drive.google.com/file/d/1wLWrUYl1IwoLyHnLdD7uNQqNBHCH8nDY/view?usp=sharing
                             Link do vídeo de explicação (en-us): ------- 
 
