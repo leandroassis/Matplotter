@@ -26,7 +26,7 @@ Este programa trabalha bem com a maior parte das funções trigonométricas e po
 
 OBS: Podem ocorrer mudanças de perfomance dependendo da tarefa e da função inserida. É comum um tempo de processamento de até 15 segundos para gerar o gráfico de funções trigonométricas, complexas ou não.
 
-                                                            ----------------- Possíveis Problemas --------------
+         ----------------- Possíveis Problemas --------------
 Não conseguir realizar o esboço do gráfico - verifique a equação, parenteses e a ordem das operações.
 Gráfico bagunçado ou reta (ruídos) - Erro e falhas causadas por conta da limitação do programa, basta tentar outra função.
 Erro repetidamente ao realizar ajuste com dados manuais - verifique se está inserindo a mesma quantidade de x e y
