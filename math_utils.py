@@ -45,18 +45,11 @@ def calculapontos(fx):
                     continue
             except TypeError:
                 continue
-        #print(xmaximoglobal)
-        #print(xminimoglobal)
-
-
-        #print(derv1)
-        #print(ncriticos)
     except:
         return False
     else:
         saida = []
         saida = saida + [assintvert,xmaximoglobal, xminimoglobal]
-        #print(saida)
         return saida
 
 
@@ -81,9 +74,6 @@ def ajustegrafico(pontos,opcao):
         xDados = np.array(x)
         yDados = np.array(y)
         coef = minimosquadrados(xDados,yDados)
-        #print(x)
-        #print(y)
-        #print(coef)
         return coef,x1,y1
     except:
         return Exception
@@ -96,13 +86,10 @@ def lerColunas(nomedoarquivo,colx,coly,ajuste):
     
     yDados = arq[coly].fillna(arq[coly].mean())
     xDados = arq[colx].fillna(arq[colx].mean())
-    #print(xDados)
-    #print(yDados)
     x = []
     y = []
 
     for item in xDados:
-        #print(type(item))
         if type(item) not in [int,float]:
                 continue
         else:
@@ -113,8 +100,6 @@ def lerColunas(nomedoarquivo,colx,coly,ajuste):
         else:
             y.append(item)
     xreturn = []
-    #print(x)
-    #print(y)
     if ajuste == 1:
         for dado in x:
             xreturn.append([dado,1])
@@ -147,8 +132,6 @@ def calcularArea(lista,lim1,lim2):
 
     for item in valor1:
         item = str(item)
-        #print('+1')
-        #print(item)
         if '*I' not in item:
             valor.append(sympify(item))
         else:
@@ -168,38 +151,27 @@ def calcularArea(lista,lim1,lim2):
         return area
     elif (lim2 and lim1) == None:    
         if len(valor) not in [0,1]:            
-            #print('estou aq')     
             for limite in range(len(valor)-1):
-                #print(limite)
                 try:
-                    #print(valor[limite], valor[limite+1])
                     area = integrate(fx-gx,(x,valor[limite],valor[limite+1]))
                     area = abs(area)
                     valores.append(area)
-                    #print(valores)
                 except:
                     continue
             resp = somafatores(valores)
             return resp
         elif len(valor) == 1:
-            #print('oi')
             area = abs(integrate(fx-gx,(x,0,valor[0])))
             return area
     else:
-        #print(valor)
         valor.append(lim1)
         valor.append(lim2)
-        #print(valor)
         valor.sort()
-        #print(valor)
         for limite in range(len(valor)-1):
-                #print(limite)
                 try:
-                    #print(valor[limite], valor[limite+1])
                     area = integrate(fx-gx,(x,valor[limite],valor[limite+1]))
                     area = abs(area)
                     valores.append(area)
-                    #print(valores)
                 except:
                     continue
         return somafatores(valores)
@@ -214,19 +186,13 @@ def calcularVolumeDisco(lista,lim1,lim2):
     hx = sympify(lista[2])
     valor1 = solve(Eq(fx,gx),x)
     valor = []
-    #print('ok')
-    #print(valor1)
-    #print(lim1,lim2)
-
+ 
     for item in valor1:
         item = str(item)
-        #print('+1')
-        #print(item)
         if '*I' not in item:
             valor.append(sympify(item))
         else:
             continue
-    #print(valor)
 
     if lim1 == None and lim2 != None:
         lim1 = valor[0]
@@ -263,10 +229,7 @@ def calcularVolumeDisco(lista,lim1,lim2):
     elif (lim2 and lim1) == None:    
         if len(valor) not in [0,1]:            
             for limite in range(len(valor)-1):
-                #print(limite)
                 try:
-                    #print(valor[limite], valor[limite+1])
-                    #print('hx aq %d' %hx)
                     if hx != 0:
                         area1 = abs(integrate(pi*(hx-fx)**2,(x,valor[limite],valor[limite+1])))
                         valores.append(area1)
@@ -275,9 +238,7 @@ def calcularVolumeDisco(lista,lim1,lim2):
                     else:
                         area1 = abs(integrate(pi*(fx)**2,(x,valor[limite],valor[limite+1])))
                         valores.append(area1)
-                        #print(area1)
                         area2 = abs(integrate(pi*(gx)**2,(x,valor[limite],valor[limite+1])))
-                        #print(area2)
                         valores2.append(area2)
                 except:
                     continue
@@ -295,21 +256,15 @@ def calcularVolumeDisco(lista,lim1,lim2):
                 valores.append(area1)
                 area2 = abs(integrate(pi*(hx-gx)**2,(x,0,valor[0])))
                 valores2.append(area2)    
-            #print(area1,area2)
             return abs(somafatores(valores)-somafatores(valores2))
         elif len(valor) == 0:
             return Exception
     else:
-        #print(valor)
         valor.append(lim1)
         valor.append(lim2)
-        #print(valor)
         valor.sort()
-        #print(valor)
         for limite in range(len(valor)-1):
-            #print(limite)
             try:
-                #print(valor[limite], valor[limite+1])
                 if hx != 0:
                     area1 = abs(integrate(pi*(hx-fx)**2,(x,valor[limite],valor[limite+1])))
                     valores.append(area1)
@@ -336,8 +291,6 @@ def calcularVolumeCilindro(lista,lim1,lim2):
 
     for item in valor1:
         item = str(item)
-        #print('+1')
-        #print(item)
         if '*I' not in item:
             valor.append(sympify(item))
         else:
@@ -361,9 +314,7 @@ def calcularVolumeCilindro(lista,lim1,lim2):
         
         if len(valor) not in [0,1]:            
             for limite in range(len(valor)-1):
-                #print(limite)
                 try:
-                    #print(valor[limite], valor[limite+1])
                     area1 = integrate(2*pi*x*(fx-gx),(x,valor[limite],valor[limite+1]))
                     valores.append(area1)
                 except:
@@ -380,7 +331,6 @@ def calcularVolumeCilindro(lista,lim1,lim2):
         valor.append(lim2)
         valor.sort()
         for limite in range(len(valor)-1):
-            #print(limite)
             try:
                 area1 = integrate(2*pi*x*(fx-gx),(x,valor[limite],valor[limite+1]))
                 valores.append(area1)
@@ -388,8 +338,3 @@ def calcularVolumeCilindro(lista,lim1,lim2):
                 continue
         resp1 = somafatores(valores)
         return abs(resp1)
-
-if __name__ == "__main__":
-    print(numforadominio)
-    print(assintvert)
-    print(ncriticos)

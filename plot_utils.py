@@ -85,14 +85,11 @@ def plotar(pontos,funcao):
             plt.plot(xdados, calcy(xdados,funcao))
             
         #configurações do gráfico
-        #plt.axes().spines['bottom'].set_position(('data',0))
         plt.axes().spines['left'].set_position(('data',0))
-        #plt.axvline(ymin=0, color= 'k')
         plt.axvline(plt.xlim()[0], color= 'k')
         plt.grid()
         
         plt.title(str(funcao))
-        #salva e apresenta o gráfico
         plt.show()
         plt.savefig('grafico%d'%cont)
         plt.close()
@@ -128,16 +125,7 @@ def esbocoajustecurvas(coef,xplot,yplot,ajuste):
     plt.legend('Pontos mensurados')
     
     xplot.sort()
-    #plt.xlim(xplot[0],xplot[len(xplot)-1])
 
     plt.show()
     plt.savefig('ajuste%d.png'%contador)
     plt.close()
-
-if __name__ == "__main__":
-   print(y1)
-   print(numforadominio)
-   print(xmaximoglobal)
-   print(xminimoglobal)
-   print(final)
-   print(inicial)
